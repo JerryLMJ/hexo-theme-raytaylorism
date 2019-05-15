@@ -64,7 +64,6 @@ duoshuo_shortname:
 yungentie_product_key:
 # 畅言
 changyan_app_id:
-changyan_app_key:
 
 # Google分析track id，若为空则不启用
 google_analytics:
