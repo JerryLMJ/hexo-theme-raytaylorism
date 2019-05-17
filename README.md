@@ -70,7 +70,8 @@ category_generator:
 ### 插件
 
 * **代码语法高亮**：语法高亮的主题默认由CSS文件`yourblog/themes/raytaylorism/source/css/lib/prettify-tomorrow-night-eighties.css`。如果需要替换，可以到[Prettify Theme]选择你喜欢的主题，下载主题的CSS文件并存放到相同的目录下，并将`yourblog/themes/raytaylorism/_config.yml`中的`google_code_prettify_theme`一项改为对应的文件名。
-* **评论**：~评论插件默认使用[多说]，需要自行配置`yourblog/themes/raytaylorism/_config.yml`中的`duoshuo_shortname`为你自己站点的shortname~（多说即将关闭服务）评论插件默认使用[网易云跟帖]，需要自行配置`yourblog/themes/raytaylorism/_config.yml`中的`yungentie_product_key`为你自己站点的productKey（从通用代码中获取）
+* **评论**：~评论插件默认使用 多说，需要自行配置`yourblog/themes/raytaylorism/_config.yml`中的`duoshuo_shortname`为你自己站点的shortname（多说即将关闭服务）评论插件默认使用 网易云跟帖，需要自行配置`yourblog/themes/raytaylorism/_config.yml`中的`yungentie_product_key`为你自己站点的productKey（从通用代码中获取）~
+评论插件使用[disqus]或[畅言]，需要自行配置`yourblog/themes/raytaylorism/_config.yml`中的`disqus_shortname`或`changyan_app_id`（从通用代码中获取）
 * **搜索**：安装[hexo-generator-search]，在`yourblog/_config.yml`中添加如下配置代码。如果不需要搜索功能，将`yourblog/themes/raytaylorism/_config.yml`中`menu`的`-id: search`那一整项删除即可
 ```
 search:
@@ -89,7 +90,8 @@ search:
 * 样式框架：[Materialize]
 * 代码语法高亮：[Google-code-prettify]
 * 流量分析：[Google Analytics]、[腾讯分析]
-* 第三方社会化评论：[多说]
+* 网页计数器：[不蒜子]
+* 第三方社会化评论：[disqus]、[畅言]
 
 ## 更新日志
 
@@ -110,7 +112,7 @@ search:
 [历史记录](log.md)
 
 [Hexo]: http://hexo.io/
-[我的博客]: https://raytaylorlin.github.io/
+[我的博客]: http://www.limingjie.net
 [Data Files]: https://hexo.io/docs/data-files.html
 [Materializecss色板]: http://materializecss.com/color.html#palette
 [Font Awesome图标]: https://fortawesome.github.io/Font-Awesome/icons/
@@ -120,7 +122,8 @@ search:
 [Materialize]: http://materializecss.com/
 [Google-code-prettify]: https://code.google.com/p/google-code-prettify/
 [Google Analytics]: http://www.google.com/analytics/
-[腾讯分析]: http://v2.ta.qq.com/
-[Furatto]: http://icalialabs.github.io/furatto/
+[腾讯分析]: http://ta.qq.com/
 [Font Awesome]: http://fortawesome.github.io/Font-Awesome/
-[多说]: http://duoshuo.com/
+[不蒜子]: https://busuanzi.ibruce.info/
+[disqus]: https://disqus.com/
+[畅言]: https://changyan.kuaizhan.com
