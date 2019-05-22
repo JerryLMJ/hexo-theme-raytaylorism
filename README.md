@@ -40,7 +40,7 @@ category_generator:
 
 ## 配置指南（重要）
 
-我的博文[《新版Hexo主题Raytaylorism v2发布》](http://raytaylorlin.com/daily/hexo-theme-raytaylorism-v2/)写了一些本指南没有涉及到的主题使用小技巧，可以作为参考。其余配置细节，还是以本指南的说明为主。
+我的博文[《新版Hexo主题Raytaylorism v2发布》](https://raytaylorlin.github.io/daily/hexo-theme-raytaylorism-v2/)写了一些本指南没有涉及到的主题使用小技巧，可以作为参考。其余配置细节，还是以本指南的说明为主。
 
 ### 样式
 
