@@ -1,4 +1,29 @@
-# 菜单配置（若不需要某项可直接删除）
+#--- 样式配置 ---#
+# 高亮的主题，若为空则使用默认主题
+google_code_prettify: prettify-tomorrow-night-eighties
+
+# 颜色配置
+color:
+  header: indigo
+  footer: indigo
+  page_nav: indigo
+  side_nav: indigo darken-1
+  tag: pink lighten-1
+  article_title_link: indigo
+  link: pink
+  pagination: pink
+  tab: pink
+  archive_item: grey
+  fab: pink
+  fab_2: green
+  fab_3: yellow darken-1
+  new: pink
+  about_header: indigo
+  about_title: indigo
+
+
+
+#--- 菜单配置（若不需要某项可直接删除）---#
 menu:
   # 首页
   - id: home
@@ -32,45 +57,38 @@ menu:
     icon: search
     class: menu-search modal-trigger
 
-# 颜色配置
-color:
-  header: indigo
-  footer: indigo
-  page_nav: indigo
-  side_nav: indigo darken-1
-  tag: pink lighten-1
-  article_title_link: indigo
-  link: pink
-  pagination: pink
-  tab: pink
-  archive_item: grey
-  fab: pink
-  fab_2: green
-  fab_3: yellow darken-1
-  new: pink
-  about_header: indigo
-  about_title: indigo
 
+
+#--- 时间格式配置 ---#
 archive_yearly: true
 
-# 版权信息
-copyright: © 2016 example.com, All rights reserved.
 
+
+#--- 是否显示上一篇/下一篇文章 ---#
+show_prev_page: true
+
+
+
+#--- 版权信息配置 ---#
+copyright: © 2016 limingjie.net, All rights reserved.
+
+
+
+#--- 第三方插件配置 ---#
+## 评论
 # Disqus评论shortname，若为空则不启用
 disqus_shortname:
 # 畅言
 changyan_app_id:
 
+## 统计
 # Google分析track id，若为空则不启用
 google_analytics:
 # 腾讯分析sId，若为空则不启用
 tencent_analytics:
-
-# 高亮的主题，若为空则使用默认主题
-google_code_prettify: prettify-tomorrow-night-eighties
-
-# 是否启用MathJax数学公式渲染。如果你确认整个站点的博文都不会用到Latex数学公式，可以将其该项设为false提高页面加载速度
-mathjax: true
-
 # 是否启用网页计数器（使用不蒜子插件）
 page_stat: true
+
+## 特殊显示
+# 是否启用MathJax数学公式渲染。如果你确认整个站点的博文都不会用到Latex数学公式，可以将其该项设为false提高页面加载速度
+mathjax: true
