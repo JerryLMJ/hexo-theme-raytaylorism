@@ -1,4 +1,4 @@
-<% if (item.prev) { %>
+<% if (theme.show_prev_page_link && item.prev) { %>
 <p class="<%= theme.color.link %>-link-context">
     <a href="<%= url_for(item.prev.path) %>" rel="next" title="<%= item.prev.title %>">
     <%= __('prev', item.prev.title) %>
@@ -6,7 +6,7 @@
 </p>
 <% } %>
 
-<% if (item.next) { %>
+<% if (show_next_page_link && item.next) { %>
 <p class="<%= theme.color.link %>-link-context">
     <a href="<%= url_for(item.next.path) %>" rel="next" title="<%= item.next.title %>">
     <%= __('next', item.next.title) %>

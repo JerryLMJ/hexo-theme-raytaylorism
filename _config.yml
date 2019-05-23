@@ -65,8 +65,8 @@ archive_yearly: true
 
 
 #--- 是否显示上一篇/下一篇文章 ---#
-show_prev_page: true
-
+show_prev_page_link: true
+show_next_page_link: true
 
 
 #--- 版权信息配置 ---#
